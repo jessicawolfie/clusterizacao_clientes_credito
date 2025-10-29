@@ -64,10 +64,12 @@ Para executar o projeto em sua máquina local, siga os passos abaixo:
 
 ## 5. Resumo dos perfis de clientes encontrados
 
-*   **Cluster 0: O Assalariado Padrão:** Homens de meia-idade, com casa própria e emprego estável, que buscam crédito de baixo valor para bens de consumo.
-*   **Cluster 1: O Empreendedor de Alto Valor:** Homens mais velhos e com alta qualificação, que buscam os maiores valores de crédito, principalmente para a compra de carros.
-*   **Cluster 2: A Jovem Inquilina:** Mulheres jovens, morando de aluguel, que buscam crédito para a compra de seu primeiro carro.
-*   **Cluster 3: A Chefe de Família:** Mulheres de meia-idade, com casa própria, que buscam crédito de baixo valor para bens de consumo.
+A análise, após a correção do pré-processamento de dados, revelou 4 segmentos de clientes principais com perfis mais claros e significativos:
+
+*   **Cluster 0: O Cliente Premium e de Lazer:** Clientes mais velhos (média de 40 anos), com alta qualificação (Gerente/Autônomo) e casa própria. Buscam os **maiores valores de crédito** e as **maiores durações** do empréstimo, principalmente para fins de **viagem e lazer**. Representam o segmento de **maior valor** para o negócio.
+*   **Cluster 1: O Cliente Padrão (Bens Duráveis):** Homens de meia-idade (média de 35 anos), qualificados e com casa própria. Buscam crédito de valor médio para a compra de **Rádio/TV** (bens de consumo duráveis). Perfil estável e de **risco baixo**.
+*   **Cluster 2: O Cliente de Microcrédito:** Similar ao Cluster 1, mas se destacam por buscar o **menor valor de crédito** e a **menor duração**. São clientes de **baixo valor**, mas com um perfil de **risco muito baixo** devido ao curto prazo.
+*   **Cluster 3: O Cliente de Veículos:** Clientes estáveis (média de 38 anos), qualificados e com casa própria. O propósito principal do crédito é a **compra de carro**. Possuem valores e durações de crédito médios. Segmento estratégico para ofertas de crédito automotivo.
 
 As implicações de negócio e as visualizações detalhadas para cada um desses perfis estão documentadas no notebook do projeto.
 
