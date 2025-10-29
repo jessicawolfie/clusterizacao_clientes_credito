@@ -35,8 +35,6 @@ Esse projeto trata desse problema usando o algoritmo K-Means, que ajuda a identi
     *   Jupyter Notebook (via VS Code) para análise interativa.
     *   Git e GitHub para versionamento de código.
 
-## 4. Como Executar o Projeto
-
 Para executar o projeto em sua máquina local, siga os passos abaixo:
 
 1.  **Clone o repositório:**
@@ -50,7 +48,7 @@ Para executar o projeto em sua máquina local, siga os passos abaixo:
     # Crie o ambiente
     python3 -m venv .venv
 
-    # Ative o ambiente (macOS/Linux )
+    # Ative o ambiente (macOS/Linux  )
     source .venv/bin/activate
     # ou (Windows - PowerShell)
     # .\.venv\Scripts\Activate
@@ -62,11 +60,9 @@ Para executar o projeto em sua máquina local, siga os passos abaixo:
     ```
 
 4.  **Execute o Jupyter Notebook:**
-    Abra o projeto no VS Code. O notebook principal, `notebooks/1.0-eda.ipynb`, contém todo o processo de análise, desde o carregamento dos dados até a interpretação final dos clusters. Execute as células em ordem para reproduzir a análise.
+    Abra o projeto no VS Code. O notebook principal, **`notebooks/1.0-eda.ipynb`**, contém todo o processo de análise, desde o carregamento dos dados até a interpretação final dos clusters. Execute as células em ordem para reproduzir a análise.
 
 ## 5. Resumo dos perfis de clientes encontrados
-
-A análise revelou 4 segmentos de clientes principais:
 
 *   **Cluster 0: O Assalariado Padrão:** Homens de meia-idade, com casa própria e emprego estável, que buscam crédito de baixo valor para bens de consumo.
 *   **Cluster 1: O Empreendedor de Alto Valor:** Homens mais velhos e com alta qualificação, que buscam os maiores valores de crédito, principalmente para a compra de carros.
@@ -75,3 +71,7 @@ A análise revelou 4 segmentos de clientes principais:
 
 As implicações de negócio e as visualizações detalhadas para cada um desses perfis estão documentadas no notebook do projeto.
 
+---
+**Atualização Importante (2025-10-29):**
+O notebook de análise (`1.0-eda.ipynb`) foi revisado e corrigido para garantir a robustez do pré-processamento, especialmente no tratamento de valores ausentes (NaN) e na codificação de variáveis categóricas. O conteúdo do arquivo foi atualizado para uma versão mais robusta.
+---
